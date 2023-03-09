@@ -1279,7 +1279,7 @@ footer
   footer > .footer__section {
     border-radius: 0;
     justify-content: center;
-    padding: 20% 10% 5% 5%;
+    padding: 20% 5% 5% 5%;
     gap: 40px;
   }
 
