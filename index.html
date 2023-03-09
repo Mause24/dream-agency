@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rubrica</title>
+  </head>
+
+  <body>
+    <div class="section__decoration noShowMobile">
+      <img
+        class="decoration__img"
+        src="./assets/images/image__headerDecoration.png"
+        alt="header decoration"
+      />
+    </div>
+    <header>
+      <section class="header__section">
+        <nav class="section__nav">
+          <input type="checkbox" name="menu" id="menu" />
+          <label class="nav__icon noShowDesktop" for="menu">
+            <div class="burgerMenu">
+              <div class="burgerMenu__container">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </label>
+          <div class="nav__container">
+            <ul class="container__menu">
+              <li class="menu__item">
+                <input
+                  class="item__radio"
+                  checked
+                  type="radio"
+                  name="selection"
+                  id="link1"
+                />
+                <label class="item__link" for="link1">Home</label>
+              </li>
+              <li class="menu__item">
+                <input
+                  class="item__radio"
+                  type="radio"
+                  name="selection"
+                  id="link2"
+                />
+                <label class="item__link" for="link2">Nosotros</label>
+              </li>
+              <li class="menu__item">
+                <input
+                  class="item__radio"
+                  type="radio"
+                  name="selection"
+                  id="link3"
+                />
+                <label class="item__link" for="link3">Servicios</label>
+              </li>
+              <li class="menu__item">
+                <input
+                  class="item__radio"
+                  type="radio"
+                  name="selection"
+                  id="link4"
+                />
+                <label class="item__link" for="link4">Contacto</label>
+              </li>
+            </ul>
+            <ul class="container__media noShowDesktop">
+              <li class="media__item">
+                <a class="item__link" href="https://www.facebook.com">
+                  <img
+                    class="link__icon"
+                    src="./assets/icons/icon__facebook--white.png"
+                    alt="facebook icon"
+                  />
+                </a>
+              </li>
+              <li class="media__item">
+                <a
+                  class="item__link"
+                  href="https://www.linkedin.com/in/omar-arenas-fullstack-developer/"
+                >
+                  <img
+                    class="link__icon"
+                    src="./assets/icons/icon__linkedin--white.png"
+                    alt="linkedin icon"
+                  />
+                </a>
+              </li>
+              <li class="media__item">
+                <a class="item__link" href="https://www.instagram.com">
+                  <img
+                    class="link__icon"
+                    src="./assets/icons/icon__instagram--white.png"
+                    alt="instagram icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <h1 class="section__title">Dream Agency</h1>
+        <ul class="section__menu noShowMobile">
+          <li class="menu__item">
+            <a class="item__link" href="https://www.facebook.com">
+              <img
+                class="link__icon"
+                src="./assets/icons/icon__facebook--primary.png"
+                alt="facebook icon"
+              />
+            </a>
+          </li>
+          <li class="menu__item">
+            <a
+              class="item__link"
+              href="https://www.linkedin.com/in/omar-arenas-fullstack-developer/"
+            >
+              <img
+                class="link__icon"
+                src="./assets/icons/icon__linkedin--primary.png"
+                alt="linkedin icon"
+              />
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="item__link" href="https://www.instagram.com">
+              <img
+                class="link__icon"
+                src="./assets/icons/icon__instagram--primary.png"
+                alt="instagram icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <section class="main__home">
+        <div class="home__container">
+          <div class="container__info">
+            <h2><b>Te ayudamos</b> a hacer crecer tu negocio</h2>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+            <input class="button" type="button" value="Get Started" />
+          </div>
+        </div>
+        <div class="home__container">
+          <img src="assets/images/image__homeImage.png" alt="home image" />
+        </div>
+      </section>
+      <section class="main__works">
+        <div class="works__decoration noShowMobile">
+          <img
+            src="./assets/images/image__worksDecoration.png"
+            alt="works decoration"
+          />
+        </div>
+        <h3 class="works__title"><b>Lo que hacemos</b> Para tu negocio</h3>
+        <div class="works__cards">
+          <div class="cards__card">
+            <div class="card__icon bg-red-light">
+              <img src="./assets/icons/icon__web--primary.png" alt="icon web" />
+            </div>
+            <h4>Website Design</h4>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
+            </p>
+          </div>
+          <div class="cards__card">
+            <div class="card__icon bg-yellow-light">
+              <img
+                src="./assets/icons/icon__computer--primary.png"
+                alt="icon computer"
+              />
+            </div>
+            <h4>Web Development</h4>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
+            </p>
+          </div>
+          <div class="cards__card">
+            <div class="card__icon bg-blue-light">
+              <img
+                src="./assets/icons/icon__mobile--primary.png"
+                alt="icon mobile"
+              />
+            </div>
+            <h4>Mobile APP Development</h4>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="main__about">
+        <div class="about__container">
+          <img src="assets/images/image__aboutImage.png" alt="about image" />
+        </div>
+        <div class="about__container">
+          <div class="container__info">
+            <h3><b>Acerca de</b> Nosotros</h3>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+            <input class="button" type="button" value="Explore More" />
+          </div>
+        </div>
+      </section>
+      <section class="main__experience">
+        <div class="experience__decoration noShowMobile">
+          <img
+            src="./assets/images/image__experienceDecoration.png"
+            alt="experience decoration"
+          />
+        </div>
+        <div class="experience__info">
+          <h3>
+            <b>Trabajos recientes</b>
+            Por nuestros expertos
+          </h3>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </p>
+        </div>
+        <div class="experience__cards">
+          <div class="cards__card">
+            <div class="card__image">
+              <div class="image__container">
+                <img src="assets/images/image__card1.png" alt="image card 1" />
+              </div>
+            </div>
+            <div class="card__info">
+              <span>UI Soup</span>
+              <input class="button alternate" type="button" value="View Work" />
+            </div>
+          </div>
+          <div class="cards__card">
+            <div class="card__image">
+              <div class="image__container">
+                <img src="assets/images/image__card2.png" alt="image card 1" />
+              </div>
+            </div>
+            <div class="card__info">
+              <span>Goldcrown Labs</span>
+              <input class="button alternate" type="button" value="View Work" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__review">
+        <h3 class="review__title">
+          <b>Nuestros testimonios</b> <br />
+          Lo que dicen nuestros clientes
+        </h3>
+        <div class="review__cards">
+          <div class="cards__card">
+            <div class="card__icon">
+              <img
+                src="assets/icons/icon__commas--secondary.png"
+                alt="icon commas"
+              />
+            </div>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuries.
+            </p>
+            <span>UI Soup</span>
+          </div>
+          <div class="cards__card">
+            <div class="card__icon">
+              <img
+                src="assets/icons/icon__commas--secondary.png"
+                alt="icon commas"
+              />
+            </div>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuries.
+            </p>
+            <span>UI Soup</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer__section">
+        <div class="footer__info">
+          <h2>Dream Agency</h2>
+          <p>
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries.
+          </p>
+          <span>Get In Touch</span>
+        </div>
+        <div class="footer__data">
+          <form class="data__form" action="POST">
+            <input
+              class="input"
+              type="text"
+              placeholder="Ingresa tu nombre"
+              required
+            />
+            <input
+              class="input"
+              type="email"
+              placeholder="Ingresa tu nombre"
+              required
+            />
+            <input
+              class="input"
+              type="number"
+              placeholder="Ingresa tu numero de telefono"
+              required
+            />
+            <input
+              class="input"
+              type="text"
+              placeholder="Ingresa tu paise"
+              required
+            />
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="10"
+              placeholder="descripcion"
+              required
+            ></textarea>
+            <div class="form__contact">
+              <div class="contact__item">
+                <img
+                  src="assets/icons/icon__phone--secondary.png"
+                  alt="icon phone"
+                />
+                <span>+57 318-899-0695</span>
+              </div>
+              <div class="contact__item">
+                <img
+                  src="assets/icons/icon__mail--secondary.png"
+                  alt="icon mail"
+                />
+                <span>contact@dreamagency.ca </span>
+              </div>
+            </div>
+            <input class="button send" type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
